@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *int main - using puts instead of printf
+ *int main(void) - using puts instead of printf
  *Return: 0 value of main
 */
 int main(void)
