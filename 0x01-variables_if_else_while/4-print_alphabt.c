@@ -6,15 +6,9 @@
 int main(void)
 {
 char b;
-char c;
 for (b = 'a'; b <= 'z'; b++)
-{
+if (b != 'q' && b != 'e')
 putchar(b);
-}
-for (c = 'A'; c <= 'Z'; c++)
-{
-putchar(c);
-}
 putchar('\n');
 return (0);
 }
