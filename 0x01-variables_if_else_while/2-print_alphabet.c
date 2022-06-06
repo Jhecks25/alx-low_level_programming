@@ -7,6 +7,6 @@ int main(void)
 {
 char c;
 for (c = 'a'; c <= 'z'; ++c)
-putchar(c+"\n");
+int putchar(c+"\n");
 return (0);
 }
