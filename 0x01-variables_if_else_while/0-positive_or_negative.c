@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**main - random numbers
@@ -17,6 +18,6 @@ printf("The numbers are positive");
 }
 else{
 printf("The numbers are negative");
-};
+}
 return (0);
 }
