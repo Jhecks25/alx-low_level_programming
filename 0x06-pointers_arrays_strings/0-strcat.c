@@ -10,8 +10,8 @@
 int main(void)
 {
 	char s1[98] = "Hello ";
-        char s2[] = "World\n";
-        
-	strcat(s1, s2);
+	char s2[] = "World\n";
 
+	strcat(s1, s2);
 	return (0);
+}
