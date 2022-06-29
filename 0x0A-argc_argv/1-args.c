@@ -8,14 +8,10 @@
  * Return: 0 Always
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-	printf("%s\n %s\n", argv[i], argv[i]);
-	}
+	if (argc > 0)
+		printf("%d\n", argc - 1);
 	return (0);
 }
 
